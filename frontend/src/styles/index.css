@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', 'Manrope', 'Cairo', sans-serif;
+  }
+}
+
+.font-wahaaj-ar {
+  font-family: 'Alexandria', 'Cairo', 'Tajawal', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.text-gradient-inferno {
+  background: linear-gradient(135deg, #FF3D00 0%, #FF641C 35%, #FF8A00 70%, #FFB21C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-wahaaj {
+  background: linear-gradient(135deg, #FF3D00 0%, #FF641C 35%, #FF8A00 70%, #FFB21C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient-inferno {
+  background: linear-gradient(135deg, #FF641C 0%, #FF8A00 50%, #FFB21C 100%);
+}
+
+.card-glow-dark {
+  box-shadow: 0 4px 20px -2px rgba(8, 21, 46, 0.4);
+}
+
+.card-glow-light {
+  box-shadow: 0 4px 24px -2px rgba(0, 0, 0, 0.06);
+}
